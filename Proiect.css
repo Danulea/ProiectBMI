@@ -1,10 +1,18 @@
-
 body {
-    background: #b4ece2 
-  
-   }
+  background: #c7b39b url(2.jpg); 
+  color: #fff; 
+ }
 .titlu{
   font-size: larger;
   font-style: oblique;
-  color: rgb(109, 169, 19);
+  color: rgb(58, 116, 170);
+}
+.first{
+  font-style: italic;
+  color: rgba(255, 94, 228, 0.904) ;
+}
+.second {
+  font-style: oblique;
+  color: rgb(58, 116, 170) ;
+  font-size:x-large;
 }

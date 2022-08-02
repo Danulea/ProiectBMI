@@ -27,7 +27,7 @@ document.querySelector('.verify1').addEventListener('click', function() {
 
       let bmii = greutate / inaltime;
 
-      document.querySelector('.clasaBMI2').textContent = (`BMI-ul tau este ${bmii}.`);
+      document.querySelector('.clasaBMI2').textContent = (`BMI-ul prietenului este ${bmii}.`);
     });
 
     document.querySelector('.verifyAge2').addEventListener('click', function() {
@@ -39,12 +39,3 @@ document.querySelector('.verify1').addEventListener('click', function() {
       document.querySelector('.clasaVarsta2').textContent = (`Varsta este ${varstaa}.`);
     });
 
-document.querySelector('.compara').addEventListener('click', function() {
-
-    
-      if( bmi > bmii){
-        document.querySelector('.clasaCompara').textContent =(`Primul BMI este mai mare ${compara}`);
-      } else {
-        document.querySelector('.clasaCompara').textContent =(`al doilea BMI e mai mare ${compara}`);
-      }
-    })

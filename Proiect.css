@@ -1,3 +1,10 @@
-.col{
-    border: solid 1px red;
+
+body {
+    background: #b4ece2 
+  
+   }
+.titlu{
+  font-size: larger;
+  font-style: oblique;
+  color: rgb(109, 169, 19);
 }
